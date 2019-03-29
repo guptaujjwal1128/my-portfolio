@@ -1,0 +1,178 @@
+.header-color {
+  
+  background: #833ab4; /* fallback for old browsers */
+   /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  );
+}
+.landing-grid {  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+    
+  );
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+.projects{
+  padding-top: 60px;
+  overflow: scroll;
+}
+.projects-grid {
+  display: flex;
+  padding-top: 30px;
+}
+
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+}/* contact page css */
+
+.contact-body {
+  padding-top: 1em;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  overflow: scroll;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: auto;
+  background: white;
+  color: black;
+}
+
+.contact-grid-2 {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 250px;
+  background: white;
+  color: black;
+}
+
+.contact-grid h3 {
+  font-family: "Anton", sans-serif;
+}
+
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  height: auto;
+  width:auto;
+  margin:auto;
+}
+
+/* contact page css */
+
+.avatar-img {
+  padding-top:4em;
+  padding-bottom: 1em;
+  vertical-align: middle;
+  width: 250px;
+  height: auto;
+  border-radius:50%;
+}
+.avatar-img-2 {
+  padding-bottom: 1em;
+  vertical-align: middle;
+  width: 250px;
+  height: auto;
+  border-radius:50%;
+}
+
+.avatar-img-3 {
+  vertical-align: middle;
+  width: 250px;
+  height: auto;
+  border-radius:50%;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: calc(4vw + 30px);
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  
+  margin:  auto ;
+  max-width: 50%;
+  text-align: center;
+}
+@media only screen and (max-width: 650px) {
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    
+    margin:  auto ;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+.social-links i {
+  color: white;
+  font-size: calc(4vw + 20px);
+  padding: 8px;
+}
